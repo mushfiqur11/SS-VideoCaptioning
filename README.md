@@ -1,6 +1,8 @@
 # SS-VideoCaptioning
 This repository contains the Tensorflow implementation of our model "Semantically Sensible Video Captioning (SSVC)" 
 
+![Main Model](sample_pictures/model_w.png "SSVC Architecture")
+
 ## Authors
   [Md. Mushfiqur Rahman](https://github.com/mushfiqur11), [Thasin Abedin](), [Khondokar S. S. Prottoy](), [Ayana Moshruba](), [Fazlul Hasan Siddiqui](http://portfolio.duetbd.org/resume/siddiqui/)
 
@@ -45,3 +47,22 @@ Install the following dependencies before running the model
     > This file has a detailed list of options. Change the options to adjust the model according to requirements
   - Train and evaluation codes are inside the python notebook
 
+## Sample Outputs
+
+
+![](sample_pictures/A1_1.png "sample result 1")<br>
+SSVC: "A woman is cutting a piece of meat" <br>
+GT: "a woman is cutting into the fatty areas of a pork chop" <br>
+SS score: 1.0 , BLEU1: 1.0, BLEU2: 1.0, BLEU3: 1.0, BLEU4: 1.0<br>
+
+
+![](sample_pictures/A1_2.png "sample result 2")<br>
+SSVC: "A person is slicing tomato" <br>
+GT: "Someone wearing blue rubber gloves is slicing a tomato with a large knife" <br>
+SS score: 0.825 , BLEU1: 1.0, BLEU2: 1.0, BLEU3: 1.0, BLEU4: 1.0<br>
+
+
+![](sample_pictures/A1_3.png "sample result 3")<br>
+SSVC: "A woman is cutting a piece of meat" <br>
+GT: "a woman is cutting into the fatty areas of a pork chop" <br>
+SS score: 0.94 , BLEU1: 1.0, BLEU2: 0.84, BLEU3: 0.61, BLEU4: 0.0<br>
