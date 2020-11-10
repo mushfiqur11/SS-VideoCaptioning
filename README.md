@@ -1,5 +1,6 @@
 # SS-VideoCaptioning
-This repository contains the Tensorflow implementation of our model "Semantically Sensible Video Captioning (SSVC)" 
+This repository contains the Tensorflow implementation of our model "Semantically Sensible Video Captioning (SSVC)" <br>
+[[Code](https://github.com/mushfiqur11/SS-VideoCaptioning)] [[Paper](https://arxiv.org/pdf/2009.07335.pdf)] [[ArXiv](https://arxiv.org/abs/2009.07335)]
 
 ![Main Model](sample_pictures/model_w.png "SSVC Architecture")
 
