@@ -64,3 +64,15 @@ SS score: 0.825, BLEU1: 1.0, BLEU2: 1.0, BLEU3: 1.0, BLEU4: 1.0<br>
 SSVC: "A woman is cutting a piece of meat" <br>
 GT: "a woman is cutting into the fatty areas of a pork chop" <br>
 SS score: 0.94, BLEU1: 1.0, BLEU2: 0.84, BLEU3: 0.61, BLEU4: 0.0<br>
+
+Please cite the following:
+
+    @article{rahman2021video,
+      title={Video captioning with stacked attention and semantic hard pull},
+      author={Rahman, Md Mushfiqur and Abedin, Thasin and Prottoy, Khondokar SS and Moshruba, Ayana and Siddiqui, Fazlul Hasan},
+      journal={PeerJ Computer Science},
+      volume={7},
+      pages={e664},
+      year={2021},
+      publisher={PeerJ Inc.}
+    }
